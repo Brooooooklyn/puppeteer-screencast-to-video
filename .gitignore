@@ -120,3 +120,4 @@ dist
 Cargo.lock
 
 *.node
+x264-sys/x264-stable

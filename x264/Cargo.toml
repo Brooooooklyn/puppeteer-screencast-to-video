@@ -1,0 +1,9 @@
+[package]
+name = "x264"
+description = "Encoding H.264 video."
+license = "MIT"
+version = "0.3.0"
+edition = "2018"
+
+[dependencies]
+x264-sys = { path = "../x264-sys" }

@@ -1,0 +1,16 @@
+[package]
+name = "x264-sys"
+version = "0.2.0"
+edition = "2018"
+description = "Rust bindings to libx264."
+license = "MIT"
+readme = "README.md"
+links = "x264"
+
+[dependencies]
+libc = "^0.2"
+
+[build-dependencies]
+bindgen = "0.55"
+glob = "0.3.0"
+num_cpus = "1.13"

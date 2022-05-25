@@ -14,7 +14,7 @@ napi = { version = "0.5" }
 napi-derive = { version = "0.5" }
 
 [target.'cfg(all(unix, not(target_env = "musl")))'.dependencies]
-jemallocator = { version = "0.3", features = ["disable_initial_exec_tls"] }
+jemallocator = { version = "0.5", features = ["disable_initial_exec_tls"] }
 
 [target.'cfg(windows)'.dependencies]
 mimalloc = { version = "0.1" }
